@@ -1,0 +1,13 @@
+---GroupMe Relationship Analysis---
+
+Author: Robby Stigler
+Version: 0.1
+
+Dependencies:
+	Python 3
+
+This project attempts to visualize the relationships between users in a GroupMe
+group. A group is represented as a graph of nodes (users) and directed and
+weighted edges between nodes (likes). The size of a node is the number of
+messages that user has sent. An edge from A to B represents A liking messages
+from B, and the weight of the edge represents the number of likes. 
